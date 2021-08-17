@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text Analyzer</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="app">
+		<div class="container">
+			<h1 class="app__title">Text Analyzer</h1>
+			<textarea name="textArea" id="textArea" class="app__text-area" placeholder="Paste your text here"></textarea>
+
+			<div class="row app__statistic">
+				<div class="col-12 col-sm-3 stat">
+				  <div class="app__number" id="char-w-s">0</div>
+				  <h3 class="app__stat">Characters <br> (with spaces)</h3>
+				</div>
+				<div class="col-12 col-sm-3 stat">
+					<div class="app__number" id="char-wo-s">0</div>
+					<h3 class="app__stat">Characters <br> (without spaces)</h3>
+				  </div>
+				<div class="col-12 col-sm-3 stat">
+					<div class="app__number" id="words">0</div>
+					<h3 class="app__stat">Words</h3>
+				</div>
+				<div class="col-12 col-sm-3 stat">
+					<div class="app__number" id="sentances">0</div>
+					<h3 class="app__stat">Sentences</h3>
+				</div>
+			  </div>
+		</div>
+		<a href="https://cheatsnake.github.io/" class="label">Made by <b>Yury</b></a>
+	</div>
+
+	<script src="code.js"></script>
+</body>
+</html>
+
+
